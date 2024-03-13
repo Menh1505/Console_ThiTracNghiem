@@ -28,6 +28,9 @@ void CauhoiTN::docfile(ifstream& f)
     getline(f,cauTL[1]);
     getline(f,cauTL[2]);
     f >> cauTLdung;
+
+     string xoaBoNhoDem;
+    getline(f, xoaBoNhoDem);
 }
 
 void CauhoiTN::ghifile(ofstream& f)
@@ -76,6 +79,10 @@ bool CauhoiTN::get_daTraLoiDung()
     return daTraLoiDung;
 }
 
+string CauhoiTN::get_cauhoi()
+{
+    return cauhoi;
+}
 bool giongnhau(CauhoiTN cau1, CauhoiTN cau2)
 {
     return cau1.cauhoi == cau2.cauhoi;

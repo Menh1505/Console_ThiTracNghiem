@@ -23,6 +23,7 @@ public:
     void kiemtra();
     void xuat();
     bool get_daTraLoiDung();
+    string get_cauhoi();
     friend bool giongnhau(CauhoiTN cau1, CauhoiTN cau2);
 };
 

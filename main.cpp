@@ -23,23 +23,27 @@ int main()
         switch (chon)
         {
         case 1:
-            {
-                CauhoiTN cauhoi;
-                cauhoi.nhap();
-                danhSachCauHoi.push_back(cauhoi);
-                break;
-            }
+        {
+            CauhoiTN cauhoi;
+            cauhoi.nhap();
+            danhSachCauHoi.push_back(cauhoi);
+            break;
+        }
         case 2:
             // Doc cau hoi tu file
             {
                 ifstream doc("cauhoi.txt");
                 if (doc.is_open())
                 {
+                    while (!doc.eof())
+                    {
+                        CauhoiTN cauhoi;
+                        cauhoi.docfile(doc);
 
-                    CauhoiTN cauhoi;
-                    cauhoi.docfile(doc);
+                        if(cauhoi.get_cauhoi() != "")
+                            danhSachCauHoi.push_back(cauhoi);
+                    }
 
-                    danhSachCauHoi.push_back(cauhoi);
                     doc.close();
                 }
                 else
@@ -67,25 +71,25 @@ int main()
             }
             break;
         case 4:
+        {
+            int soThuTu = 1;
+            int socaudung = 0;
+            for (auto cauhoi : danhSachCauHoi)
             {
-                int soThuTu = 1;
-                int socaudung = 0;
-                for (auto cauhoi : danhSachCauHoi)
-                {
-                    cout << "\nCau hoi thu " << soThuTu++;
-                    cauhoi.kiemtra();
-                    if(cauhoi.get_daTraLoiDung())
-                        socaudung++;
-                }
-                cout << "\nDiem cua ban la: " << socaudung;
-                break;
+                cout << "\nCau hoi thu " << soThuTu++ << endl;
+                cauhoi.kiemtra();
+                if (cauhoi.get_daTraLoiDung())
+                    socaudung++;
             }
+            cout << "\nDiem cua ban la: " << socaudung << endl;
+            break;
+        }
         case 5:
         {
             int soThuTu = 1;
             for (auto cauhoi : danhSachCauHoi)
             {
-                cout << "1) ";
+                cout << soThuTu << ") ";
                 cauhoi.xuat();
             }
             break;
