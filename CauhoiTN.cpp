@@ -15,8 +15,6 @@ void CauhoiTN::nhap()
     getline(cin, cauTL[0]);
     cout << "\nNhap cau B: ";
     getline(cin, cauTL[1]);
-    cout << "\nNhap cau C: ";
-    getline(cin, cauTL[2]);
     cout << "\nNhap dap an dung: ";
     cin >> cauTLdung;
 }
@@ -26,7 +24,6 @@ void CauhoiTN::docfile(ifstream& f)
     getline(f, cauhoi);
     getline(f,cauTL[0]);
     getline(f,cauTL[1]);
-    getline(f,cauTL[2]);
     f >> cauTLdung;
 
      string xoaBoNhoDem;
@@ -38,7 +35,6 @@ void CauhoiTN::ghifile(ofstream& f)
     f << cauhoi << endl;
     f << cauTL[0] << endl;
     f << cauTL[1] << endl;
-    f << cauTL[2] << endl;
     f << cauTLdung << endl;
 }
 
@@ -47,8 +43,7 @@ void CauhoiTN::kiemtra()
     cout << cauhoi << endl;
     cout << "a)" << cauTL[0] << endl;
     cout << "b)" << cauTL[1] << endl;
-    cout << "c)" << cauTL[2] << endl;
-    cout << "\nNhap dap an cua ban (A,B,C): ";
+    cout << "\nNhap dap an cua ban (A,B): ";
     char res;
     cin >> res;
     if(res == cauTLdung || res == (cauTLdung - 32) || res == (cauTLdung + 32))
@@ -68,10 +63,6 @@ void CauhoiTN::xuat()
     if(cauTLdung == 'B' || cauTLdung == 'b')
     {
         cout << cauTL[1] << endl;
-    }
-    if(cauTLdung == 'C' || cauTLdung == 'c')
-    {
-        cout << cauTL[2] << endl;
     }
 }
 bool CauhoiTN::get_daTraLoiDung()

@@ -12,7 +12,7 @@ class CauhoiTN
 private:
     string cauhoi;
     char cauTLdung;
-    string cauTL[3];
+    string cauTL[2];
     bool daTraLoiDung;
 
 public:

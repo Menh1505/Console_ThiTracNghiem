@@ -89,9 +89,10 @@ int main()
             int soThuTu = 1;
             for (auto cauhoi : danhSachCauHoi)
             {
-                cout << soThuTu << ") ";
+                cout << soThuTu++ << ") ";
                 cauhoi.xuat();
             }
+            system("pause");
             break;
         }
         case 6:
