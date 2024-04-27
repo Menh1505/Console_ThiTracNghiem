@@ -1,0 +1,24 @@
+Cau 1: 1+1=?
+A. 2
+B. 3
+A
+Cau 2: Sao Hoa la hanh tinh co su song?
+A. Dung
+B. Sai
+B
+Cau 3: Thai Binh Duong la dai duong lon nhat?
+A. Dung
+B. Sai
+A
+Cau 4: Ghi gap den mau gi ta phai dung lai
+A. Xanh
+B. Do
+B
+Cau 5: Co bao nhieu hanh tinh trong he mat troi?
+A. 7
+B. 8
+B
+Cau 6: Mat troi moc huong nao?
+A. Dong
+B. Tay
+A
