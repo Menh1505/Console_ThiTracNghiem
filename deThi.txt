@@ -1,24 +1,79 @@
-Cau 1: 1+1=?
-A. 2
-B. 3
-A
-Cau 2: Sao Hoa la hanh tinh co su song?
-A. Dung
-B. Sai
-B
-Cau 3: Thai Binh Duong la dai duong lon nhat?
-A. Dung
-B. Sai
-A
-Cau 4: Ghi gap den mau gi ta phai dung lai
-A. Xanh
-B. Do
-B
-Cau 5: Co bao nhieu hanh tinh trong he mat troi?
-A. 7
-B. 8
-B
-Cau 6: Mat troi moc huong nao?
-A. Dong
-B. Tay
-A
+10
+con meo co 2 chan
+2
+dung 
+sai
+b
+1
+trai dat hinh gi
+4
+tron
+vuong 
+tam giac 
+cau 
+d
+1
+Tác phẩm nào của nhà văn Hemingway đã đoạt giải Nobel văn học năm 1954
+4
+ong gia va bien ca 
+gia tu vu khi 
+chuong nguyen hon ai 
+tuyet tren dinh kilimanjaro
+a
+1
+qua trinh sinh tong hop protein dien ra o bo phan nao trong co the 
+4
+ti the 
+ribosome 
+luoi noi chat 
+bo may golgi 
+b
+1
+tien dao Le Cong Vinh da tung choi cho doi bong nao o Bo Dao Nha 
+4
+Gil Vicente
+Rio Ave 
+Leixoes SC 
+Aves 
+c
+1
+con vat nao duoi day khong the boi
+4
+ca
+chim canh cut 
+vit
+voi
+d
+2
+hinh thoi co may canh
+4
+3
+4
+5
+6
+b
+2
+hiep khi dao la ten khac cua mon vo nao
+4
+aikido
+judo
+karate
+vovinam
+a
+2
+ten loai bup be go noi tieng cua Nga 
+4
+Daruma
+Kirov
+Perestroika
+Matryoshka
+d
+3
+dan co cam co may day 
+4
+4 
+5
+6
+7
+d
+3

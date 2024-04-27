@@ -1,0 +1,49 @@
+6
+con vat nao duoi day khong the boi
+4
+ca
+chim canh cut 
+vit
+voi
+d
+2
+hinh thoi co may canh
+4
+3
+4
+5
+6
+b
+2
+hiep khi dao la ten khac cua mon vo nao
+4
+aikido
+judo
+karate
+vovinam
+a 
+2
+le hoi khai an Den Tran dien ra o dau 
+4
+Ninh Binh 
+Bac Ninh
+Nam Dinh
+Thai Binh 
+c 
+2
+dat nuoc hinh luc lang la ten goi khac cua dat nuoc nao
+4
+Anh 
+Y 
+Phap    
+Duc 
+b 
+2
+the loai tho Haiku la cua quoc gia nao 
+4
+Trung Quoc 
+Nhat Ban 
+Han Quóc 
+An do 
+b 
+2 

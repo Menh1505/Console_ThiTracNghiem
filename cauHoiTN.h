@@ -17,9 +17,14 @@ private:
 public:
 	CauHoiTN();
 	CauHoiTN(string, int, string*, char, int);
-	~CauHoiTN();
+	~CauHoiTN()
+	{
+		delete answer;
+	}
 	void Enter_Question(istream&);
 	void Print_Question(ostream&);
 	int examine(char); //return your point
-	friend bool giongNhau(CauHoiTN cau1, CauHoiTN cau2);
+	friend bool CompareQuestion(CauHoiTN cau1, CauHoiTN cau2); //compare content of two ques
+
+	int Get_Diff() {return diff;}
 };
